@@ -18,7 +18,10 @@
     <link rel="stylesheet" href="assets/css/fontawesome.css">
     <link rel="stylesheet" href="assets/css/templatemo-finance-business.css">
     <link rel="stylesheet" href="assets/css/owl.css">
-<!--
+    <!-- AOS  -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+    <!--
 
 Finance Business TemplateMo
 
@@ -158,7 +161,7 @@ https://templatemo.com/tm-545-finance-business
             </div>
           </div>
           <div class="col-md-4">
-            <div class="service-item">
+            <div class="service-item" data-aos="fade-up" data-aos-delay="200"> 
               <img src="assets/images/service_01.jpg" alt="">
               <div class="down-content">
                 <h4>Digital Currency</h4>
@@ -168,7 +171,7 @@ https://templatemo.com/tm-545-finance-business
             </div>
           </div>
           <div class="col-md-4">
-            <div class="service-item">
+            <div class="service-item" data-aos="fade-up" data-aos-delay="300">
               <img src="assets/images/service_02.jpg" alt="">
               <div class="down-content">
                 <h4>Market Analysis</h4>
@@ -178,7 +181,7 @@ https://templatemo.com/tm-545-finance-business
             </div>
           </div>
           <div class="col-md-4">
-            <div class="service-item">
+            <div class="service-item" data-aos="fade-up" data-aos-delay="400">
               <img src="assets/images/service_03.jpg" alt="">
               <div class="down-content">
                 <h4>Historical Data</h4>
@@ -195,7 +198,7 @@ https://templatemo.com/tm-545-finance-business
       <div class="container">
         <div class="row">
           <div class="col-md-6">
-            <div class="left-content">
+            <div class="left-content" data-aos="flip-up" data-aos-delay="40">
               <span>Lorem ipsum dolor sit amet</span>
               <h2>Our solutions for your <em>business growth</em></h2>
               <p>Pellentesque ultrices at turpis in vestibulum. Aenean pretium elit nec congue elementum. Nulla luctus laoreet porta. Maecenas at nisi tempus, porta metus vitae, faucibus augue. 
@@ -241,12 +244,12 @@ https://templatemo.com/tm-545-finance-business
           <div class="col-md-12">
             <div class="more-info-content">
               <div class="row">
-                <div class="col-md-6">
+                <div class="col-md-6" data-aos="zoom-in-right" data-aos-delay="100">
                   <div class="left-image">
                     <img src="assets/images/more-info.jpg" alt="">
                   </div>
                 </div>
-                <div class="col-md-6 align-self-center">
+                <div class="col-md-6 align-self-center" data-aos="zoom-in-left" data-aos-delay="100">
                   <div class="right-content">
                     <span>Who we are</span>
                     <h2>Get to know about <em>our company</em></h2>
@@ -492,6 +495,13 @@ https://templatemo.com/tm-545-finance-business
           t.style.color='#fff';
           }
       }
+    </script>
+    <!-- AOS  -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      $(function(){
+        AOS.init();
+      });
     </script>
 
   </body>

@@ -1331,3 +1331,9 @@ footer .contact-form button.filled-button:hover {
 		border-bottom: none!important;
 	}
 }
+
+/* for extra white space  */
+
+html,body{
+	overflow-x: hidden;
+}
